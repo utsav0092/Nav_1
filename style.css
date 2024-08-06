@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: Poppins; */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-size: 62.5%;
+    background-image: url(./bgimage.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*1rem = 16px
+    1rem = 10px*/
+}
+
+.nav {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    background-color: #ffff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.logo p {
+    cursor: pointer;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.logo p span {
+    color: palevioletred;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+    color: #000;
+    transition: all ease 0.2s;
+}
+
+.nav ul li a:hover {
+    color: palevioletred;
+}
+
+.nav-btn {
+    cursor: pointer;
+}
